@@ -1,0 +1,56 @@
+# ---- Build output (Maven / Eclipse WTP) ----
+target/
+**/target/
+*.class
+*.war
+*.ear
+
+# ---- Oracle JDBC driver (licensed; each developer adds their own) ----
+# See lib-oracle/src/main/webapp/WEB-INF/lib/PUT_OJDBC_JAR_HERE.txt
+ojdbc*.jar
+
+# ---- Eclipse IDE files ----
+.classpath
+.project
+.settings/
+.metadata/
+.recommenders/
+.apt_generated/
+.factorypath
+.springBeans
+bin/
+tmp/
+RemoteSystemsTempFiles/
+Servers/
+
+# ---- IntelliJ IDEA ----
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ---- VS Code ----
+.vscode/
+
+# ---- NetBeans ----
+nbproject/private/
+nbbuild/
+nbdist/
+
+# ---- Logs & temp files ----
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+hs_err_pid*
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Local-only config overrides (optional, never committed) ----
+*.local.properties
+.env
